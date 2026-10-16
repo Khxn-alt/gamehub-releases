@@ -17,22 +17,22 @@
   <img src="assets/screenshot.png" alt="GameHub library" width="92%">
 </p>
 
-## ✨ What is GameHub?
+## What is GameHub?
 
 GameHub puts every game you own, whichever launcher it lives in, in **one clean library**. Click a poster and the game
 starts: no hopping between Steam, Epic, Ubisoft, Riot and Rockstar.
 
 | | |
 |---|---|
-| 🎮 **One library** | Steam, Epic Games, Ubisoft Connect, Riot and Rockstar games with cover art, found automatically |
-| ⚡ **One-click play** | Games start through their own launcher in the background, no launcher window in your way |
-| 🔄 **Live update status** | See which games are updating, with a real-time progress bar (Steam) |
-| 🧩 **50+ apps** | Add Discord, Spotify, OBS, Roblox, Modrinth, CurseForge, Lunar Client, FL Studio, Brave and more, each with its own page |
-| 🎨 **Make it yours** | Four built-in themes and a Theme Studio to change every colour, font, shape and effect, then save your own |
-| 🧭 **Your layout** | Reorder, hide or delete anything in the sidebar and the filter bar |
-| 🔐 **Secure updates** | New versions arrive by themselves, signed so only the author can ship them |
+| **One library** | Steam, Epic Games, Ubisoft Connect, Riot and Rockstar games with cover art, found automatically |
+| **One-click play** | Games start through their own launcher in the background, no launcher window in your way |
+| **Live update status** | See which games are updating, with a real-time progress bar (Steam) |
+| **50+ apps** | Add Discord, Spotify, OBS, Roblox, Modrinth, CurseForge, Lunar Client, FL Studio, Brave and more, each with its own page |
+| **Make it yours** | Four built-in themes and a Theme Studio to change every colour, font, shape and effect, then save your own |
+| **Your layout** | Reorder, hide or delete anything in the sidebar and the filter bar |
+| **Secure updates** | New versions arrive by themselves, signed so only the author can ship them |
 
-## 🎨 Themes
+## Themes
 
 <p align="center">
   <img src="assets/themes.png" alt="GameHub themes: Modern Dark, Cyberpunk, Fantasy, Retro Arcade" width="92%">
@@ -41,7 +41,7 @@ starts: no hopping between Steam, Epic, Ubisoft, Riot and Rockstar.
 Modern Dark, Cyberpunk, Fantasy and Retro Arcade, each with its own fonts, card shapes, glow and animated background.
 Start from one, or hit **+** to build a brand new theme from scratch.
 
-## 🧩 Works with
+## Works with
 
 **Launchers:** Steam · Epic Games · Ubisoft Connect · Riot Games · Rockstar Games · GOG Galaxy · EA app · Battle.net · itch.io · Heroic · Playnite · Amazon Games · Minecraft Launcher · Overwolf · HoYoPlay
 
@@ -57,7 +57,7 @@ Start from one, or hit **+** to build a brand new theme from scratch.
 
 > GameHub only shows what is installed on your PC. Open **+** next to *Platforms* and it finds them for you.
 
-## 📥 Install
+## Install
 
 1. **[Download GameHub-Setup.exe](https://github.com/Khxn-alt/gamehub-releases/releases/latest/download/GameHub-Setup.exe)**
 2. Run it and follow the steps (no administrator rights needed)
@@ -72,7 +72,7 @@ author and is refused if anything was changed.
 
 **Uninstall:** Windows Settings → Apps → GameHub.
 
-## ❓ FAQ
+## FAQ
 
 <details><summary><b>Does GameHub ask for my passwords or log in to my accounts?</b></summary>
 
@@ -98,7 +98,7 @@ GameHub reads Steam's local update status, so Steam is accurate, including progr
 Ubisoft and Riot update when you start the game.
 </details>
 
-## ⚖️ License & credits
+## License & credits
 
 **GameHub** is created and owned by **khxn**. © 2026 khxn. All rights reserved.
 
@@ -108,6 +108,6 @@ Ubisoft, Riot Games, Rockstar Games and each publisher); GameHub is not affiliat
 
 <div align="center">
 
-**Made with ❤️ by khxn**
+**Made by khxn**
 
 </div>
