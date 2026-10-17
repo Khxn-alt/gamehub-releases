@@ -68,6 +68,8 @@ Graphite is the default theme (shown above). The other built-in themes:
 
 **Creative and development:** FL Studio, Blender, Unity Hub, DaVinci Resolve, CapCut, Ableton Live, VS Code, Notepad++, Brave, Chrome, Edge
 
+And a lot more....
+
 Apps are added with the **+** next to *Platforms*. Only installed apps can be added.
 
 ## Install
