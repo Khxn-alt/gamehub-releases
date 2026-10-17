@@ -42,7 +42,7 @@ Games are found automatically and start through their own launcher.
 - Random game picker
 - Free games alert for Epic Games Store and Steam giveaways
 - Controller support (Xbox and PlayStation)
-- 50+ supported apps, such as Discord, Spotify, OBS, Roblox, Modrinth and CurseForge
+- 190+ supported apps, such as Discord, Spotify, OBS, Roblox, Modrinth and CurseForge
 - Discord status
 - Five themes and a theme editor
 
