@@ -19,7 +19,7 @@
 
 ## What is GameHub?
 
-GameHub puts every game you own, whichever launcher it lives in, in **one clean library**. Click a poster and the game
+GameHub puts every game you own, whichever launcher it lives in, in **one library**. Click a poster and the game
 starts: no hopping between Steam, Epic, Ubisoft, Riot and Rockstar.
 
 | | |
