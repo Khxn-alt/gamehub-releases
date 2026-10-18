@@ -23,6 +23,7 @@ Games are found automatically and start through their own launcher.
 
 **Library**
 - Games from Steam, Epic, Ubisoft, Riot and Rockstar, with cover art
+- Home page with continue playing, recently added and your collections
 - One-click launch
 - Update status for Steam games, including download progress
 - Favorites, recently played, recently added
@@ -37,12 +38,17 @@ Games are found automatically and start through their own launcher.
 **Game details**
 - News and patch notes for Steam games
 - Steam achievement progress (requires your own Steam Web API key)
+- Install size and a shortcut to the install folder
+
+**Free & deals**
+- Free games from the Epic Games Store and Steam, with an alert
+- Steam and Epic Games sales, with filters by store and discount
+- Sales on your Steam wishlist
 
 **Other**
 - Random game picker
-- Free games alert for Epic Games Store and Steam giveaways
 - Controller support (Xbox and PlayStation)
-- 190+ supported apps, such as Discord, Spotify, OBS, Roblox, Modrinth and CurseForge
+- 280 supported apps, such as Discord, Spotify, OBS, Roblox, Modrinth and CurseForge
 - Discord status
 - Five themes and a theme editor
 
@@ -60,7 +66,11 @@ Graphite is the default theme (shown above). The other built-in themes:
 
 **Minecraft:** Modrinth, CurseForge, Lunar Client, Prism Launcher, ATLauncher, MultiMC, TLauncher, Badlion, Feather
 
-**Games:** Roblox Player and Studio, Hytale, osu!, Jagex Launcher
+**Games:** Roblox Player and Studio, Bloxstrap, FiveM, Hytale, osu!, RuneLite, Jagex Launcher
+
+**Emulators:** RetroArch, Dolphin, PCSX2, RPCS3, DuckStation, PPSSPP, Cemu, Ryujinx, Xenia and more
+
+**VR:** SteamVR, Meta Quest Link, Virtual Desktop, ALVR
 
 **Social and streaming:** Discord, Spotify, OBS Studio, Streamlabs, Medal, TeamSpeak, Voicemod
 
@@ -68,9 +78,10 @@ Graphite is the default theme (shown above). The other built-in themes:
 
 **Creative and development:** FL Studio, Blender, Unity Hub, DaVinci Resolve, CapCut, Ableton Live, VS Code, Notepad++, Brave, Chrome, Edge
 
-And a lot more....
+And a lot more.
 
 Apps are added with the **+** next to *Platforms*. Only installed apps can be added.
+CurseForge and Modrinth show your modpacks, and FL Studio, Blender and VS Code show your recent projects.
 
 ## Install
 
