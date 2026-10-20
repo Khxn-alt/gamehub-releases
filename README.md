@@ -16,13 +16,13 @@
 
 ## About
 
-GameHub shows the games from Steam, Epic Games, Ubisoft Connect, Riot Games and Rockstar Games in one library.
+GameHub shows the games from Steam, Epic Games, Ubisoft Connect, Riot Games, Rockstar Games, Xbox, EA app, GOG and Battle.net in one library.
 Games are found automatically and start through their own launcher.
 
 ## Features
 
 **Library**
-- Games from Steam, Epic, Ubisoft, Riot and Rockstar, with cover art
+- Games from Steam, Epic, Ubisoft, Riot, Rockstar, Xbox, EA app, GOG and Battle.net, with cover art
 - Home page with continue playing, recently added and your collections
 - One-click launch
 - Update status for Steam games, including download progress
@@ -33,12 +33,19 @@ Games are found automatically and start through their own launcher.
 **Playtime**
 - Tracks time per game, also when a game is started outside GameHub
 - Weekly totals and a 14-day overview
+- Play sessions and a calendar of when you played
 - Shows which game is running, with an option to close it
+- Profile card to share, with your own picture, colour and layout
 
 **Game details**
 - News and patch notes for Steam games
 - Steam achievement progress (requires your own Steam Web API key)
 - Install size and a shortcut to the install folder
+- Choose posters, banners and logos from SteamGridDB (requires a free API key)
+
+**Storage**
+- Space used per drive and per game, largest first
+- Shows games you haven't played in 3 months
 
 **Free & deals**
 - Free games from the Epic Games Store and Steam, with an alert
