@@ -96,12 +96,59 @@ CurseForge and Modrinth show your modpacks, and FL Studio, Blender and VS Code s
 2. Run the installer. Administrator rights are not required.
 3. Start GameHub from the Desktop or Start menu.
 
-Windows SmartScreen may show "unknown publisher" because the installer has no paid code-signing certificate.
-Click **More info**, then **Run anyway**.
+Windows SmartScreen may show "unknown publisher". Click **More info**, then **Run anyway**.
+See [Windows Defender and antivirus warnings](#windows-defender-and-antivirus-warnings) below.
 
 **Updates:** GameHub checks for updates on start. Every update is signed and is rejected if it was modified.
 
 **Uninstall:** Windows Settings > Apps > GameHub, or run the installer again.
+
+## Windows Defender and antivirus warnings
+
+GameHub is not code-signed. A code-signing certificate is paid and is not used for this project.
+Windows and antivirus programs trust unsigned programs less, and their machine-learning scanners sometimes mark
+them as malware when they are not. This is called a false positive.
+
+GameHub is a Python program packaged with PyInstaller. PyInstaller programs are often hit by these detections,
+because malware is sometimes packaged the same way.
+
+**Known detections**
+
+| Version | File | Detection | Status |
+|---|---|---|---|
+| 1.0.16 | `GameHub.exe` | `Trojan:Win32/Bearfoos.A!ml` (Windows Defender) | False positive, reported to Microsoft |
+
+A detection name that ends in `!ml` comes from Defender's machine-learning model, not from a known malware sample.
+On [VirusTotal](https://www.virustotal.com/gui/file/cbb7fee4adf519e71387e93fb4d3a52e3a7c897a874f17c5b511c725a1506450),
+3 of 71 scanners flag the 1.0.16 file, all on generic or machine-learning rules.
+
+**Check that your file is the original**
+
+Every release lists the SHA256 of `GameHub.exe`. Compare it with your file in PowerShell:
+
+```powershell
+Get-FileHash "$env:LOCALAPPDATA\Programs\GameHub\GameHub.exe"
+```
+
+If the hash does not match the one in the release, do not run the file and download GameHub again from this page.
+
+**If Defender removed GameHub.exe**
+
+1. Open **Windows Security** > **Virus & threat protection** > **Protection history**.
+2. Open the entry for `GameHub.exe`, check that the path is your GameHub folder.
+3. Choose **Actions** > **Allow** (or **Restore**).
+
+Only do this for a file whose hash matches the release. You can also wait for Microsoft to update its definitions;
+after that, run the installer again.
+
+**What GameHub does and does not do**
+
+- It reads install information from your launchers and starts games through them.
+- It runs a small web page for its own window on `127.0.0.1` only; it cannot be reached from other computers.
+- It does not ask for passwords and does not send your data to the developer.
+- It only installs updates that carry the developer's signature.
+
+Antivirus problems with GameHub can be reported under [Issues](https://github.com/Khxn-alt/gamehub-releases/issues).
 
 ## FAQ
 
