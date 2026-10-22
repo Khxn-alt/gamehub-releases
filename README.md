@@ -130,7 +130,7 @@ Every release lists the SHA256 of `GameHub.exe`. Compare it with your file in Po
 Get-FileHash "$env:LOCALAPPDATA\Programs\GameHub\GameHub.exe"
 ```
 
-If the hash does not match the one in the release, do not run the file and [download](https://github.com/Khxn-alt/gamehub-releases/releases/tag/v1.0.16) GameHub again
+If the hash does not match the one in the release, do not run the file and [download](https://github.com/Khxn-alt/gamehub-releases/releases/tag/v1.0.16) GameHub again.
 
 **If Defender removed GameHub.exe**
 
