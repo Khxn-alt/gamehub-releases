@@ -16,13 +16,13 @@
 
 ## About
 
-GameHub shows the games from Steam, Epic Games, Ubisoft Connect, Riot Games, Rockstar Games, Xbox, EA app, GOG and Battle.net in one library.
+GameHub shows the games from Steam, Epic Games, Ubisoft Connect, Riot Games, Rockstar Games, Xbox, EA app, GOG, Battle.net and Nexon in one library.
 Games are found automatically and start through their own launcher.
 
 ## Features
 
 **Library**
-- Games from Steam, Epic, Ubisoft, Riot, Rockstar, Xbox, EA app, GOG and Battle.net, with cover art
+- Games from Steam, Epic, Ubisoft, Riot, Rockstar, Xbox, EA app, GOG, Battle.net and Nexon, with cover art
 - Home page with continue playing, recently added and your collections
 - One-click launch
 - Update status for Steam games, including download progress
@@ -105,12 +105,12 @@ See [Windows Defender and antivirus warnings](#windows-defender-and-antivirus-wa
 
 ## Windows Defender and antivirus warnings
 
-GameHub is not yet code-signed. A code-signing certificate is paid and is not used for my project.
-Windows and antivirus programs trust unsigned programs less, and their machine learning scanners sometimes mark
-them as malware when they are not.
+GameHub is not code-signed. A code-signing certificate is paid and is not used for this project.
+Windows and antivirus programs trust unsigned programs less, and their machine-learning scanners sometimes mark
+them as malware when they are not. This is called a false positive.
 
 GameHub is a Python program packaged with PyInstaller. PyInstaller programs are often hit by these detections,
-because malware is packaged the same way.
+because malware is sometimes packaged the same way.
 
 **Known detections**
 
@@ -130,7 +130,7 @@ Every release lists the SHA256 of `GameHub.exe`. Compare it with your file in Po
 Get-FileHash "$env:LOCALAPPDATA\Programs\GameHub\GameHub.exe"
 ```
 
-If the hash does not match the one in the release, do not run the file and [download](https://github.com/Khxn-alt/gamehub-releases/releases/tag/v1.0.16) GameHub again.
+If the hash does not match the one in the release, do not run the file and download GameHub again from this page.
 
 **If Defender removed GameHub.exe**
 
