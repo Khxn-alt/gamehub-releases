@@ -116,11 +116,13 @@ because malware is sometimes packaged the same way.
 
 | Version | File | Detection | Status |
 |---|---|---|---|
-| 1.0.16 | `GameHub.exe` | `Trojan:Win32/Bearfoos.A!ml` (Windows Defender) | False positive, reported to Microsoft |
+| 1.0.16 | `GameHub.exe` | `Trojan:Win32/Bearfoos.A!ml` (Windows Defender) | False positive, removed by Microsoft (October 2026) |
 
 A detection name that ends in `!ml` comes from Defender's machine-learning model, not from a known malware sample.
 On [VirusTotal](https://www.virustotal.com/gui/file/cbb7fee4adf519e71387e93fb4d3a52e3a7c897a874f17c5b511c725a1506450),
 3 of 71 scanners flag the 1.0.16 file, all on generic or machine-learning rules.
+Microsoft reviewed the file and removed the detection. If Defender still flags it, update Defender under
+**Windows Security** > **Virus & threat protection** > **Protection updates** > **Check for updates**.
 
 **Check that your file is the original**
 
